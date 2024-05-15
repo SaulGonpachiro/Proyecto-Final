@@ -11,12 +11,12 @@ public class Asistente extends Usuario {
     private LocalDate fecha_nacimiento;
     private boolean esAdmin;
 
-    public Asistente(String nombre, String apellido, String email, String password, String telf, LocalDate fecha_nacimiento, String nombre1, String apellidos, String email1, String password1, String telefono, String dni, LocalDate fecha_nacimiento1, boolean esAdmin) {
+    public Asistente(String nombre, String apellido, String email, String password, String telf, String nombre1, LocalDate fecha_nacimiento1, boolean esAdmin) {
         super();
         this.nombre = nombre1;
         this.apellidos = apellidos;
-        this.email = email1;
-        this.password = password1;
+        this.email = email;
+        this.password = password;
         this.telefono = telefono;
         this.dni = dni;
         this.fecha_nacimiento = fecha_nacimiento1;
