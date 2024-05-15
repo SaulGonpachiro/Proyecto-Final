@@ -1,11 +1,7 @@
-//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by FernFlower decompiler)
-//
 
 import java.time.LocalDate;
 
-public class Asistente {
+public class Asistente extends Usuario {
     private String nombre;
     private String apellidos;
     private String email;
@@ -15,19 +11,23 @@ public class Asistente {
     private LocalDate fecha_nacimiento;
     private boolean esAdmin;
 
-    public Asistente() {
-    }
-
-    public Asistente(String nombre, String apellidos, String email, String password, String telefono, String dni, LocalDate fecha_nacimiento, boolean esAdmin) {
-        this.nombre = nombre;
+    public Asistente(String nombre, String apellido, String email, String password, String telf, LocalDate fecha_nacimiento, String nombre1, String apellidos, String email1, String password1, String telefono, String dni, LocalDate fecha_nacimiento1, boolean esAdmin) {
+        super();
+        this.nombre = nombre1;
         this.apellidos = apellidos;
-        this.email = email;
-        this.password = password;
+        this.email = email1;
+        this.password = password1;
         this.telefono = telefono;
         this.dni = dni;
-        this.fecha_nacimiento = fecha_nacimiento;
+        this.fecha_nacimiento = fecha_nacimiento1;
         this.esAdmin = esAdmin;
     }
+
+
+    public Asistente(String lolo, String pepo, String mail, String number, String id, Object o, String s) {
+        super();
+    }
+
 
     public Asistente(String nombre, String email, String password, boolean esAdmin) {
         this.nombre = nombre;

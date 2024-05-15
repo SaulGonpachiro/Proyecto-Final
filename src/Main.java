@@ -11,7 +11,7 @@ public class Main {
     public static void main(String[] args) {
         Gestor gestorEventos = new Gestor();
         Scanner sc = new Scanner(System.in);
-        Asistente asistenteActual = new Asistente();
+        Asistente asistenteActual = new Asistente("Lolo", "Pepo", "pepe@gmail.com", "12345", "699838377", null, "12345678Z");
 
         do {
             System.out.println("\n\n🌟🌟🌟🌟🌟 DELECTARE MULTIEVENTOS 🌟🌟🌟🌟🌟\n<<------------------------------------------>>\n\n   1.  🚀 [Acceder]\n   2.  📝 [Registrarse]\n   3.  🚪 [Finalizar]\n\n<<----------------------------------------\n   Por favor, selecciona una opción: \n---------------------------------------->>\n");
